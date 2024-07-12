@@ -80,6 +80,25 @@ h4{
     margin-top:5rem;
 }
 
+.logo{
+    color: var(--blanco);
+}
+
+.logo__nombre{
+    font-weight: 400;
+}
+
+.logo__bold{
+    font-weight: 700;
+}
+
+.navegacion__enlace{
+    display: block;
+    text-align: center;
+    font-size: 1.8rem;
+    color: var(--blanco);
+  
+}
 
 @media (min-width: 768px){
     .barra{
@@ -87,18 +106,12 @@ h4{
         align-items: center;
         justify-content: space-between;
     }
-
-    .logo{
-        color: var(--blanco);
+    .navegacion{
+        display: flex;
+        gap: 2rem;
     }
 
-    .logo__nombre{
-        font-weight: 400;
-
-    }
-
-    .logo__bold{
-        font-weight: 700;
-
+    .header__texto{
+        margin-top:10rem;
     }
 }
