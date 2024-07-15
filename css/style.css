@@ -133,6 +133,39 @@ img{
 
 }
 
+.boton--secundario{
+    background-color: var(--primario);
+
+}
+
+/* estilos para el sidebar */
+.cursos{
+    list-style: none;
+}
+
+.widget-curso{
+    border-bottom: 1px solid var(--gris);
+    margin-bottom: 2rem;
+}
+
+.widget-curso:last-of-type{
+    border:none;
+    margin-bottom: 0;
+}
+
+.widget-curso__label{
+    font-family: var(--fuenteEncabezado);
+    font-weight: bold;
+}
+
+.widget-curso__info{
+    font-weight: normal;
+}
+
+.widget-curso__label, .widget-curso__info{
+    font-size: 2rem;
+}
+
 @media (min-width: 768px){
     .barra{
         display: flex;
